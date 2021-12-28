@@ -1,0 +1,15 @@
+<div>
+  <form class="field">
+    <div>
+      <label class="form-label">Username</label>
+      <input type="email" class="form-control" placeholder="Email" [formControl]="username">
+    </div>
+    <div>
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control" placeholder="Password" [formControl]="password">
+    </div>
+    <div class="button">
+      <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+    </div>
+  </form>
+</div>
